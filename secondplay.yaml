@@ -1,0 +1,7 @@
+- name: test second file
+  hosts: web
+  tasks:
+    - name: test path
+      yum:
+        name: httpd
+        state: latest
