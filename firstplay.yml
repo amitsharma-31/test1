@@ -1,6 +1,5 @@
----
 - name: first play
-  hosts: tower
+  hosts: all
   tasks:
     - name: play something
       shell: echo "Hey how r u"
